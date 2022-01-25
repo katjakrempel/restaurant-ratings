@@ -6,16 +6,16 @@ The motivation for this project was twofold. First, I was interested in whether 
 
 ### Contents
 
-Data Collection
-Data Cleaning
-Feature Engineering
-Exploratory Data Analysis
-Modelling
-Limitations
-Conclusions
-Future Work
-Key Learnings
-Contact
+[Data Collection](https://github.com/katjakrempel/restaurant-ratings#data-collection)\
+[Data Cleaning](https://github.com/katjakrempel/restaurant-ratings#data-cleaning)\
+[Feature Engineering](https://github.com/katjakrempel/restaurant-ratings#feature-engineering)\
+[Exploratory Data Analysis](https://github.com/katjakrempel/restaurant-ratings#exploratory-data-analysis)\
+[Modelling](https://github.com/katjakrempel/restaurant-ratings#modelling)\
+[Limitations](https://github.com/katjakrempel/restaurant-ratings#limitations)\
+[Conclusions](https://github.com/katjakrempel/restaurant-ratings#conclusions)\
+[Future Work](https://github.com/katjakrempel/restaurant-ratings#future-work)\
+[Key Learnings](https://github.com/katjakrempel/restaurant-ratings#key-learnings)\
+[Contact](https://github.com/katjakrempel/restaurant-ratings#contact)
 
 ### Data Collection
 
