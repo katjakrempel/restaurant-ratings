@@ -48,6 +48,8 @@ The following features were created from the underlying raw data:
 
 The EDA process revealed that class imbalance was present in both potential target variables. This affected in particular the food hygiene rating variable, with only 4% of observations having a rating below 3. 
 
+![Food Hygiene Ratings](/assets/images/food-hygiene-ratings.png)
+
 In terms of location, the data set is skewed towards restaurants in London as can be seen from the graphs below (30 percent of restaurants in the data set are based in London).
 
 Restaurants belonging to a chain made up 12 percent of the sample (this might be underestimating the true percentage, as pointed out under “Limitations”).
