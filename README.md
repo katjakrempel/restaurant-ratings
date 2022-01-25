@@ -48,13 +48,27 @@ The following features were created from the underlying raw data:
 
 The EDA process revealed that class imbalance was present in both potential target variables. This affected in particular the food hygiene rating variable, with only 4% of observations having a rating below 3. 
 
+![Food Hygiene Ratings](images/food-hygiene-ratings.png)
+
+![Yelp Ratings](images/yelp-ratings.png)
+
 In terms of location, the data set is skewed towards restaurants in London as can be seen from the graphs below (30 percent of restaurants in the data set are based in London).
+
+![Top Locations by City](images/top-locations-cities.png)
+
+![Top Locations by Postcode](images/top-locations-postcodes.png)
 
 Restaurants belonging to a chain made up 12 percent of the sample (this might be underestimating the true percentage, as pointed out under “Limitations”).
 
+![Chain vs Non-Chain](images/restaurant-chains.png)
+
 The review count variable is highly skewed, with a median of 3 Yelp reviews per restaurant and over 200 reviews for the top 30 restaurants. Restaurants with lower ratings seem to have fewer reviews.
 
+![Review Count](images/review-count.png)
+
 The heatmap shows that correlations were unfortunately quite low (except for food hygiene rating and its component scores, however these features are not independent).
+
+![Correlation Heatmap](images/correlation-heatmap.png)
 
 ### Modelling
 
@@ -65,6 +79,8 @@ Several binary classification models were run in order to predict if a restauran
 Both a Logistic Regression and a Decision Tree Classifier were applied to the full dataset and to a subset of the data for which price information was available. 
 
 The best performing model was a Logistic Regression applied to the data subset, which predicted a high Yelp rating. The mean cross-validated accuracy score was 0.6258, which is 4.1 percentage points above the baseline. Recall was 0.42 for the low Yelp rating class, i.e. only 42% of truly low Yelp ratings were correctly predicted as such. Precision was 0.66 for the high Yelp rating class and 0.61 for the low Yelp rating class - 66% of observations predicted as high and 61% of observations predicted as low were correctly labelled. Overall, the model showed limited predictive power.
+
+![Logistic Regression Coefficients](images/logreg-coefficients.png)
 
 Review count had the highest positive coefficient, i.e. all else being equal a high number of reviews increased the probability of the Yelp rating being classed as high the most. The strongest decrease in the probability of a high Yelp rating resulted from the restaurant being a pub or part of a chain.
 
