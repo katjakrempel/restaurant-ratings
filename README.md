@@ -4,6 +4,16 @@
 
 The motivation for this project was twofold. First, I was interested in whether it is possible to predict a restaurant’s food hygiene rating based on characteristics such as location, price range or cuisine. From a local authority’s point of view, identifying non-compliant businesses could help with prioritisation of on-site inspections. Second, I was taking a business perspective and wanted to understand which restaurant characteristics determined high Yelp ratings. Which attributes mattered to customers?
 
+### Notebook Contents
+
+| Notebook | Contents |
+| ------------- | ------------- |
+| capstone_data_fsa.ipynb | Data collection - Food Standard Agency API |
+| capstone_data_yelp.ipynb | Data collection - Yelp API |
+| capstone_restaurants_eda_models.ipynb | Exploratory Data Analysis and Modelling |
+
+Please note the data files are not included.
+
 ### Contents
 
 [Data Collection](https://github.com/katjakrempel/restaurant-ratings#data-collection)\
